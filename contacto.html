@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Projeto Ambiental</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ambiente">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">🌿 Projeto Ambiental</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="projeto.html">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="ambiente-guine.html">Outros</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contacto.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <h1>📞 Fale Conosco</h1>
+        <p class="lead mt-3">Estamos aqui para responder suas dúvidas e receber sugestões sobre nossos projetos ambientais.</p>
+    </div>
+</section>
+
+<!-- Serviços/Como Ajudamos -->
+<section id="servicos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">🌍 Como Podemos Proteger o Meio Ambiente Juntos?</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>♻️ Redução de Plástico</h5>
+                    <p>Substitua sacolas plásticas por ecobags e evite talheres ou garrafas descartáveis.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>🗑️ Gestão de Resíduos</h5>
+                    <p>Separe o lixo reciclável do orgânico, destine o óleo de cozinha para reciclagem.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>💧 Economia de Água</h5>
+                    <p>Tome banhos rápidos, conserte vazamentos e não use água para limpar calçadas.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>🚴 Mobilidade Sustentável</h5>
+                    <p>Utilize bicicleta, ande a pé ou use transporte público para reduzir emissões.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>🛒 Consumo Consciente</h5>
+                    <p>Compre apenas o necessário, prefira produtos locais e orgânicos.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card p-4 h-100">
+                    <h5>🌳 Respeito à Natureza</h5>
+                    <p>Não desmate, não atire lixo no chão e plante árvores sempre que puder.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sobre -->
+<section id="sobre" class="about py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">📋 Sobre o Projeto Ambiental</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <p class="text-center" style="font-size: 1.1rem; line-height: 1.8;">
+                    Somos uma organização focada em inovação e excelência ambiental. Trabalhamos para entregar
+                    soluções eficientes que agregam valor real aos nossos clientes e ao planeta. Através de educação,
+                    ação prática e engajamento comunitário, buscamos um futuro mais sustentável.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contato -->
+<section id="contato" class="contact py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">✉️ Envie-nos uma Mensagem</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Seu Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Seu Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Sua Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 btn-lg">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p class="mb-0">&copy; 2026 Projeto Ambiental. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>

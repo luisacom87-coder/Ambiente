@@ -1,0 +1,195 @@
+<style>
+body.ambiente {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar - usar estilos de style.css */
+.navbar {
+    background: linear-gradient(135deg, #1e4d47 0%, #2a6d63 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    color: #e8f4f1 !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #4de8cc !important;
+    border-bottom: 2px solid #4de8cc;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, rgba(30, 77, 71, 0.9), rgba(42, 109, 99, 0.9)), 
+                url("../img/transferir\ \(1\).jfif") center/cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero .lead {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+/* Section Title */
+.section-title {
+    color: #1e4d47;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #4de8cc;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-left: 4px solid #4de8cc;
+}
+
+.card h5 {
+    color: #1e4d47;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(77, 232, 204, 0.2);
+}
+
+/* About Section */
+.about {
+    background-color: #f0fffe;
+}
+
+.about p {
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f8f9fa;
+}
+
+.form-label {
+    color: #1e4d47;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #4de8cc;
+    box-shadow: 0 0 0 0.2rem rgba(77, 232, 204, 0.25);
+    outline: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #1e4d47 0%, #2a6d63 100%);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #152f2a 0%, #1f4f47 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(77, 232, 204, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #1e4d47 0%, #2a6d63 100%);
+    color: #fff;
+    margin-top: 50px;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero .lead {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+</style>
+
+footer {
+    background-color: #0dfd3d;
+    color: white;
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0bb2d7;
+}
+</style>
