@@ -7,7 +7,7 @@ body.ambiente {
 
 /* Navbar - usar estilos de style.css */
 .navbar {
-    background: linear-gradient(135deg, #1e4d47 0%, #2a6d63 100%);
+    background: linear-gradient(135deg, #1e4d47 0%, #8a811a 100%);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
